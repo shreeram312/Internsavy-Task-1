@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="svgg.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  
+  </head>
+  <body>
+    <div class="sm:bg-gradient-to-tr to-red-300 from-yellow-200 h-12 p-2 sm:h-14 bg-yellow-200 sm:p-3vsm:my-1">
+      <h1 class="text-center text-2xl font-medium sm:text-4xl ">Weather Website</h1>
+      </div>
+   
+    <div class="baby bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400  sm:p-10 sm:bg-blue-300   flex items-center justify-center sm:h-screen h-screen  sm:w-auto ">
+      
+      <div
+        class="bg-gradient-to-tr to-green-300 from-blue-400 h-auto w-max  sm:w-auto px-2   sm:my-3 sm:h-auto   text-center rounded-3xl hover:shadow-2xl"
+      
+      >
+        <div class="search p-3">
+          <input
+            class=" sm:text-2xl  rounded-xl p-3 m-3 sm:rounded-2xl sm:h-14 sm:w-72 h-12 w-44 outline-2 outline-violet-500"
+            type="text"
+            type="submit"
+            placeholder="Enter city  Name "
+            id="box"
+          />
+          <button class="rounded-full bg-white sm:p-5 p-4" id="button">
+            <img class="h-6 w-6 sm:h-8 sm:w-8 -mb-4 cursor-pointer rounded-md" src="mm.jpg" />
+          </button>
+        </div>
+
+      
+        <div class=" weather"> 
+
+
+       
+          <h1 class=" desc sm:font-semibold font-bold text-3xl sm:text-4xl sm:mx-2"></h1>
+        </div>
+
+        <div class="magic">
+          <div class="pasand" id="pasand">
+          <img class=" mainimg h-44 w-40  sm:h-56 sm:w-60 sm:mx-20 mx-14"id="mainimg" src="rain.png" />
+          </div>
+          <h1 class=" temp font-bold sm:text-5xl text-4xl"></h1>
+          <br />
+
+     
+          <h2 class=" city font-bold sm:text-3xl  sm:-mx-2 -mx-2 text-2xl">Enter City Name</h2>
+        </div>
+
+
+        
+        <div class="flex flex-row magic">
+          <div class="flex flex-col p-4">
+            <img class="h-8 w-8 sm:h-10 sm:w-12 mx-5" src="humidity.png" />
+          <div class="">
+              <p class=" humidity text-left mx-6 font-bold sm:text-2xl sm:font-bold   ">50%</p>
+              <p class=" text-left mx-2  sm:text-2xl text-md font-bold sm:font-bold">Humidity</p>
+            </div>
+          </div>
+
+          <div class="flex flex-row ml-1  magic">
+            <div class="flex flex-col p-4 sm:ml-24">
+          
+            <div class="sm:text-justify">
+              <img class="h-7 w-7 sm:h-10 sm:w-12 mx-12 " src="wind.png" />
+              <p class="wind  mx-4  font-bold sm:text-2xl sm:font-bold  ">15 km/hr</p>
+              <p class="text-left mx-4 font-bold sm:text-2xl sm:font-bold">Wind Speed</p>
+            </div>
+            </div>
+
+           </div>
+          
+        </div>
+
+      </div>
+    </div>
+    </div>
+
+
+
+   
+  </body>
+  <script src="index.js"></script>
+</html>
+
+
+
